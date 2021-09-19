@@ -1,5 +1,5 @@
 FROM alpine:latest
-LABEL maintainer="Fatih Boy <fatih@entterprisecoding.com>"
+LABEL maintainer="Fatih Boy <fatih@enterprisecoding.com>"
 
 RUN addgroup -S nsupdate && adduser -S nsupdate -G nsupdate \
     && apk add --no-cache bind-tools
